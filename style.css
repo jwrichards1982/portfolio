@@ -105,6 +105,11 @@ main > div > article > section p {
   color: #493736;
 }
 
+main > div > article > section a {
+  color: #493736;
+  text-align: right;
+}
+
 main > div {
   border: 3px solid #668284;
   padding: 10px;
