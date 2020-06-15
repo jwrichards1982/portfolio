@@ -45,6 +45,7 @@ header > div > h1 {
   font-size: 70px;
   margin: auto;
   font-family: 'Metal Mania', serif;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 header > div > h2 {
