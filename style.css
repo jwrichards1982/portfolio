@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Permanent+Marker');
+body {
+  margin: 0;
+  background-color: #f0ffff;
+} //this is the main info for background and a font I like outside of the default/standard browser stuff
+
+html, h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  font-size: 24px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  font-size: 18 px;
+} //font setup for various elements
+
+main > article > section > header > h2 {
+  color: #668284;
+  font-size: 24px;
+}
+
+main > article > section > header > h3 {
+  color: #668284;
+  font-size: 12px;
+}
+
+main > div > article > section > p {
+  font-size: 16px;
+}//special font setups
+
+main > div > article > section > header > h2, 
+main > div > article > section p, 
+footer > div > nav > p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header > div > h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header > div > h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div > p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > div > nav {
+  margin: 0 0 10px 10px;
+}
+
+header > div > nav > a {
+  padding: 0 15px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #493736;
+}
+
+header > div > nav a:hover {
+  color: #668284;
+}
+
+nav,
+div {
+  width: 300px;
+  margin: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main > div > article > section p {
+  color: #493736;
+}
+
+main > div {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+}
+
+footer > div > nav > p {
+  color: #668284;
+  font-size: 16px;
+}
