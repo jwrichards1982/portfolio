@@ -7,20 +7,20 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>  
 
-  <body>
+  <body onload="newQuote()"><!-- Random quote retriever on load-->
     <header><!--begin title header-->
       <div>
         <h1>James Richards</h1>
         <hr>
         <h2>Software Developer</h2>
         <hr>
-        <img src="images/me.jpg" width="500" alt="It is just me">
+        <img src="images/me.jpg" width="450" alt="It is just me">
         <hr>
         <nav id="navMenu"><!--Navigation with icons-->
           <a href="#aboutMe"><img src="icons/aboutMe.png" width="64" alt="About Me"></a>
           <a href="https://github.com/jwrichards1982"><img src="icons/github.png" width="64" alt="GitHub Profile"></a>
           <a href="https://www.linkedin.com/in/jamesrichards1982/" target="_blank" ><img src="icons/linkedin.png" width="64" alt="LinkedIn Profile"></a>
-          <a href="mailto:richardsjamesw@gmail.com?subject=eMail@20from%20the%20Github%20Portfolio"><img src="icons/email.png" width="64" alt="Email Me"></a>
+          <a href="mailto:richardsjamesw@gmail.com?subject=aMail@20from%20the%20Github%20Portfolio"><img src="icons/email.png" width="64" alt="Email Me"></a>
         </nav>
         <hr>
       </div>
@@ -62,7 +62,7 @@
             <a href="#aboutMe"><img src="icons/aboutMe.png" width="64" alt="About Me"></a>
             <a href="https://github.com/jwrichards1982"><img src="icons/github.png" width="64" alt="GitHub Profile"></a>
             <a href="https://www.linkedin.com/in/jamesrichards1982/" target="_blank" ><img src="icons/linkedin.png" width="64" alt="LinkedIn Profile"></a>
-            <a href="mailto:richardsjamesw@gmail.com?subject=eMail@20from%20the%20Github%20Portfolio"><img src="icons/email.png" width="64" alt="Email Me"></a>
+            <a href="mailto:richardsjamesw@gmail.com?subject=aMail@20from%20the%20Github%20Portfolio"><img src="icons/email.png" width="64" alt="Email Me"></a>
         </nav>
         <hr>
       </div>
@@ -74,15 +74,17 @@
       https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
       https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child-->
       <div id="footer">
-        <p>"The 'Net' is a waste of time, and that's exactly what's right about it."<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - William Gibson</p>
+        <!--https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/-->
+        <p id="quoteDisplay"></p>
+        <!-- Random quote retriever-->
         <p>© J. W. Richards, 2020</p>
         <p><a href="index.html">Portfolio Home:  <img src="icons/home.png" width="16" alt="Home"></a><br>
         <a href="#aboutMe">About Me:  <img src="icons/aboutMe.png" width="16" alt="About Me"></a><br>
         <a href="https://github.com/jwrichards1982">Github Profile:  <img src="icons/github.png" width="16" alt="GitHub Profile"></a><br>
         <a href="https://www.linkedin.com/in/jamesrichards1982/" target="_blank" >LinkedIn Profile:  <img src="icons/linkedin.png" width="16" alt="LinkedIn Profile"></a><br>
-        <a href="mailto:richardsjamesw@gmail.com?subject=eMail@20from%20the%20Github%20Portfolio">Email:  <img src="icons/email.png" width="16" alt="Email Me"></a><br></p>
+        <a href="mailto:richardsjamesw@gmail.com?subject=aMail@20from%20the%20Github%20Portfolio">Email:  <img src="icons/email.png" width="16" alt="Email Me"></a><br></p>
       </div>
     </footer>
-  <script src="script.js"></script>
+  <script src="quoteGet.js"></script>
   </body>
 </html>
