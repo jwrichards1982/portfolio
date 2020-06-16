@@ -1,19 +1,15 @@
-# portfolio
-There isn't much to say about this project.  I am participatng in a coding bootcamp called Thinkful that will hopefully end
-in gainful employment/work.
+# James Richards Portfolio
 
-I have been borking around with computers since I was a kid.  My father first introduced me to a C64 when I was a very small
-kid.  Same time, elemetary schools were using Apple IIe computers and I learned how to do simple things like starting
-a program or game.  The same with the C64.  My father started me on the path to being a computer user and always asking why and
-how something worked.
+I am a software developer and hobbyist coder living in Las Vegas, Nevada, USA.
 
-In the mid 90's I had a 386 computer I used to learn BASIC and I programmed a very simple Zelda clone.  My next step was learning
-C++ and I programmed my first application, a Dungeons and Dragons character generator that saw many revisions and use throughout
-my time in middle school and evenhigh school.
+My journey started when I was young; my father showed me how to start games on his Commodore 64.  When I entered middle-school, I learned how to do the same on Apple IIe and even little bits of code to complete math problems.  I built my first computer, a 386 out of my father's spare, hand-me-down parts.  
 
-Then something happend.  I stopped programming.  I still continued to create webpages and sites, but mostly through copy and paste
-as CSS became a thing and I had lost the drive to learn that kind of thing.
+Since then, I ask the question "...how/why does this work?"
+I have contributed and developed a handful of projects, including:
 
-Now, the sky is the limit.  I am getting back into the groove and will make something of myself.
+* A Zelda clone developed in BASIC circa 1993, 6th grade middle-school
+* A Dungeons and Dragons character generator in C++ circa 1995, continued development till around 1999
+* Developed and coded a few websites used in commercial setting
+* Contributed and developed several game modifications for Minecraft
 
-And to start it all off?  From the beginning.
+I invite you to take a look at my web-page and if you have any questions, looking for a developer or someone to complete your team, please [Contact me](mailto:richardsjamesw@gmail.com) and let me know what I can do for you!
