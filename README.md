@@ -12,4 +12,4 @@ I have contributed and developed a handful of projects, including:
 * Developed and coded a few websites used in commercial setting
 * Contributed and developed several game modifications for Minecraft
 
-I invite you to take a look at my web-page and if you have any questions, looking for a developer or someone to complete your team, please [Contact me](mailto:richardsjamesw@gmail.com) and let me know what I can do for you!
+I invite you to take a look at my web-page (check out the random quote printer!) and if you have any questions, looking for a developer or someone to complete your team, please [Contact me](mailto:richardsjamesw@gmail.com) and let me know what I can do for you!
