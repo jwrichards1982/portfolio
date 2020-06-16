@@ -5,6 +5,11 @@ body {
 } /* this is the main info for background and a font I like outside of the default/standard browser stuff */
 
 /* font setup for no tag texts and various elements*/
+hr {
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 html, h1, h2, h3, h4, h5, p {
   font-family: Roboto, sans-serif;
 }
