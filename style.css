@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Metal Mania|Roboto');
 body {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background-color: #f0ffff;
 
 } /* this is the main info for background and a font I like outside of the default/standard browser stuff */
