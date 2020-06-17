@@ -4,6 +4,7 @@ body {
   margin-right: auto;
   margin-top: 3px;
   margin-bottom: 3px;
+  justify-content: center;
   background-color: #f0ffff;
 
 } /* this is the main info for background and a font I like outside of the default/standard browser stuff */
