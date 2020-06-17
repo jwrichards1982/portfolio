@@ -5,19 +5,18 @@ body {
 } /* this is the main info for background and a font I like outside of the default/standard browser stuff */
 
 /* font setup for no tag texts and various elements*/
-hr {
-  height: 1px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-html, h1, h2, h3, h4, h5, p {
+
+
+html, h1, h2, h3, h4, h5, h6, p {
   font-family: Roboto, sans-serif;
 }
 h1 {
   font-size: 30px;
+  text-align: center;
 }
 h2 {
   font-size: 22px;
+  text-align: center;
 }
 h3 {
   font-size: 14px;
@@ -27,7 +26,6 @@ p {
 } 
 h6 {
   font-size: 0px;
-  text-align: center;
 }
  /* link color setup */
 a:link,
@@ -43,103 +41,102 @@ a:active {
 /* font setup for no tag texts and various elements*/
 
 /* main text in container */
-main > div {
-  border: 3px solid #668284;
-  padding: 10px;
-  background-color: #B9D7D9;
-}
-main > div > section > h2,
-main > div > section > h1,
-main > div > section > ul,
-main > div > section > ol,
-main > div > section > p {
+/* old main container */
+/* main { */
+/*  border: 3px solid #668284; */
+/*  padding: 10px; */
+/*  background-color: #B9D7D9; */
+/* } */
+main > section > h2,
+main > section > h1,
+main > section > ul,
+main > section > ol,
+main > section > p {
   color: #474747;
-  margin: auto;
+  margin: 0px 50px 0px 50px;
+  /* margin: top right bottom left */
   padding: 10px;
   font-size: 16px;
   font-family: Roboto, sans-serif;
   list-style-position: inside;
 } 
-main > div > section > h2,
-main > div > section > h1 {
+main > section > h2,
+main > section > h1 {
   text-align: center;
 } 
-main > div > section > h3 {
+main > section > h3 {
   font-size: 14px;
   color: #474747;
 }
-main > div > section > h2 {
+main > section > h2 {
   font-size: 22px;
 }
-main > div > section > h1 {
+main > section > h1 {
   font-size: 30px;
 }
-main > div > section h3,
-main > div > section a {
+main > section h3,
+main > section a {
   font-family: Roboto, sans-serif;
   text-align: right;
   text-decoration: underline;
 }
 /* main text in container */
 
-/* header with navigation in a container */
-header > div > p,
-header > div > h2,
-header > div > h1 {
+/* header with navigation */
+header > p,
+header > h2,
+header > h1 {
   color: #000000;
   text-align: center;
   margin: auto;
 }
-header > div > h2
-header > div > p {
+header > h2
+header > p {
   padding: 10px;
   font-family: Roboto, sans-serif;
 }
-header > div > h2 {
+header > h2 {
   font-size: 22px;
 }
-header > div > h1 {
-  font-size: 70px;
+header > h1 {
+  font-size: 90px;
   font-family: 'Metal Mania', cusive;
   text-shadow: 4px 4px 4px #aaa;
 }
 
-header > div > img {
+header > img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* IE8 fix */
   margin-left: auto;
   margin-right: auto;
 }
 
-section > div > nav {
-/* margin: top right bottom left */
-  margin: auto;
-  text-align: center;
+section > hr {
+  width: 500px
 }
-section > div > nav > a {
-  padding: 10px 10px 10px 10px;
-  text-decoration: underline;
 /* padding top right bottom left */
+nav > hr {
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-header > div > nav {
+header > nav,
+section > nav,
+header > nav > a,
+section > nav > a {
 /* margin: top right bottom left */
-  margin: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 20px 0px 20px;
   text-align: center;
-}
-header > div > nav > a {
-  padding: 10px 10px 10px 10px;
-  text-decoration: underline;
-/* padding top right bottom left */
 }
 
-nav,
-div,
+
+/* footer section */
 footer {
-  width: 500px;
-  margin: auto;
+  margin: 0px 20px 0px 20px;
 }
-/* header with navigation in a container */
-
-/* footer section in a container */
 /* Tri- column advice: */
 /* https://stackoverflow.com/questions/462931/css-layout-help-3-column-footer */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child */
