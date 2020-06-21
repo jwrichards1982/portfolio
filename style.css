@@ -9,29 +9,20 @@ body {
 
 } /* this is the main info for background and a font I like outside of the default/standard browser stuff */
 
-/* font setup for no tag texts and various elements*/
-
-
-html, h1, h2, h3, h4, h5, h6, p {
+/* font setups*/
+html, h1, h2, h3, h4, h5, h6 {
   font-family: Roboto, sans-serif;
+  text-align:center;
 }
-h1 {
-  font-size: 30px;
-  text-align: center;
-}
-h2 {
-  font-size: 22px;
-  text-align: center;
-}
-h3 {
-  font-size: 14px;
-}
-p {
-  font-size: 16px;
-} 
-h6 {
-  font-size: 0px;
-}
+/* for reference
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+h4 {font-size: 16px;}
+h5 {font-size: 13px;}
+h6 {font-size: 10px;}
+p {font-size: 16px;}*/
+ 
  /* link color setup */
 a:link,
 a:visited {
@@ -43,15 +34,12 @@ a:active {
   color: #a9a9a9;
   text-decoration: none;
 }
-/* font setup for no tag texts and various elements*/
+/* font and link color setup end*/
 
-/* main text in container */
-/* old main container */
-/* main { */
-/*  border: 3px solid #668284; */
-/*  padding: 10px; */
-/*  background-color: #B9D7D9; */
-/* } */
+/* main section styles */
+/* For reference
+/*padding top right bottom left
+  margin: top right bottom left */
 main > section > h2,
 main > section > h1,
 main > section > ul,
@@ -59,33 +47,44 @@ main > section > ol,
 main > section > p {
   color: #474747;
   margin: 0px 50px 0px 50px;
-  /* margin: top right bottom left */
   padding: 10px;
-  font-size: 16px;
   font-family: Roboto, sans-serif;
   list-style-position: inside;
 } 
+header > section > h2 {
+  --minFontSize: 18px;
+  --maxFontSize: 24px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}/*  https://css-tricks.com/simplified-fluid-typography/  */
+header >section > h1 {
+  --minFontSize: 24px;
+  --maxFontSize: 32px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}/*  https://css-tricks.com/simplified-fluid-typography/  */
+header > section > ul,
+header > section > ol,
+header > section > p {
+  --minFontSize: 14px;
+  --maxFontSize: 16px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}/*  https://css-tricks.com/simplified-fluid-typography/  */
+
+main > section > ul,
+main > section > ol,
+main > section > p {
+  text-align:left;
+}
 main > section > h2,
 main > section > h1 {
   text-align: center;
 } 
 main > section > h3 {
-  font-size: 14px;
   color: #474747;
 }
-main > section > h2 {
-  font-size: 22px;
-}
-main > section > h1 {
-  font-size: 30px;
-}
-main > section h3,
-main > section a {
-  font-family: Roboto, sans-serif;
-  text-align: right;
-  text-decoration: underline;
-}
-/* main text in container */
+/* main section styles */
 
 /* header with navigation */
 header > p,
@@ -100,28 +99,36 @@ header > p {
   padding: 10px;
   font-family: Roboto, sans-serif;
 }
-header > h2 {
-  font-size: 22px;
-}
+
 header > h1 {
-  font-size: 90px;
   font-family: 'Metal Mania', cusive;
   text-shadow: 4px 4px 4px #aaa;
+  --minFontSize: 40px;
+  --maxFontSize: 200px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}
+header > h2 {
+  --minFontSize: 24px;
+  --maxFontSize: 32px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 }
 
 header > img {
   display: block;
   max-width: 80%;
   height: auto;
-  width: auto\9; /* IE8 fix */
+  width: auto\9; /* IE8 fix - might be removed in future iteration*/
   margin-left: auto;
   margin-right: auto;
 }
-
 section > hr {
   width: 500px
 }
-/* padding top right bottom left */
+section > h3 {
+  text-align: center;
+}
 nav > hr {
   height: 1px;
   margin-top: 5px;
@@ -131,7 +138,6 @@ header > nav,
 section > nav,
 header > nav > a,
 section > nav > a {
-/* margin: top right bottom left */
   margin: 0px 0px 0px 0px;
   padding: 0px 20px 0px 20px;
   text-align: center;
@@ -142,28 +148,34 @@ section > nav > a {
 footer {
   margin: 0px 20px 0px 20px;
 }
+footer > h5:first-child,
+footer > h5:nth-child(2),
+footer > h5:last-child {
+  --minFontSize: 10px;
+  --maxFontSize: 13px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}/* https://css-tricks.com/simplified-fluid-typography/ */
+
 /* Tri- column advice: */
 /* https://stackoverflow.com/questions/462931/css-layout-help-3-column-footer */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child */
-#footer > p:first-child {
+footer > h5:first-child {
   color: #668284;
-  font-size: 12px;
   float: left;
   text-align: left;
   width: 33.3%;
 }
-#footer > p:nth-child(2) {
+footer > h5:nth-child(2) {
   color: #668284;
-  font-size: 12px;
   float: left;
   text-align: center;
   width: 33.4%;
 }
-#footer > p:last-child {
+footer > h5:last-child {
   color: #668284;
-  font-size: 12px;
   float: right;
   text-align: right;
   width: 33.3%;
