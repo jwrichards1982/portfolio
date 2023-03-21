@@ -7,6 +7,7 @@ My journey started when I was young; my father showed me how to start games on h
 Since then, I ask the question "...how/why does this work?"
 I have contributed and developed a handful of projects, including:
 
+NEW - 21-March-2023 - Working on a Minecraft mod : [HERE](https://github.com/jwrichards1982/mc_wine)
 * A Zelda clone developed in BASIC circa 1993, 6th grade middle-school
 * A Dungeons and Dragons character generator in C++ circa 1995, continued development till around 1999
 * Developed and coded a few websites used in commercial setting
