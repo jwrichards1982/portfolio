@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/quoteGet.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.poptrox.min.js"></script>
     <script src="js/jquery.scrolly.min.js"></script>
@@ -28,7 +29,7 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 
-<body>
+<body onload="newQuote()">
 
     <!-- Header -->
     <header id="header">
@@ -53,8 +54,13 @@
             <p>Welcome to my portfolio.</p>
             <p>You might notice a distinct lack of content.</p>
             <p>No worries. The site will be back up soon.</p>
+            <img src="images/me.jpg" alt="It is just me" width="300" height="374">
             <footer>
-                <img src="images/me.jpg" alt="It is just me" width="300" height="374">
+                <div class="quote-box">
+                    <blockquote>
+                        <p id="quoteDisplay"></p>
+                    </blockquote>
+                </div>
             </footer>
         </div>
     </section>
