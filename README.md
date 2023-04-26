@@ -1,4 +1,5 @@
 # James Richards Portfolio
+THIS REPO HAS BEN COMPLETELY REWRITTEN and MASTER HAS BEEN REPLACED
 
 I am a software developer and hobbyist coder living in Las Vegas, Nevada, USA.
 
