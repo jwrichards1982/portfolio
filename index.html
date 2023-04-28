@@ -1,101 +1,616 @@
-<!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <title>Big Picture by HTML5 UP</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>James Richards</title>
     <meta name="description" content="">
-    <meta name="keywords" content="">
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="js/quoteGet.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.poptrox.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/jquery.scrollex.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    <noscript>
-        <link rel="stylesheet" href="css/skel.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style-wide.css">
-        <link rel="stylesheet" href="css/style-normal.css">
-    </noscript>
-    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.png">
+
 </head>
 
 <body onload="newQuote()">
 
-    <!-- Header -->
-    <header id="header">
+    <!-- Header
+   ================================================== -->
+    <header id="home">
 
-        <!-- Logo -->
-        <h1 id="logo">James Richards</h1>
+        <nav id="nav-wrap">
 
-        <!-- Nav -->
-        <nav id="nav">
-            <ul>
-                <li>Under Construction</li>
-            </ul>
-        </nav>
-    </header>
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-    <!-- Intro -->
-    <section id="intro" class="main style1 dark fullscreen">
-        <div class="content container 75%">
-            <header>
-                <h2>Hello!</h2>
-            </header>
-            <p>Welcome to my portfolio.</p>
-            <p>You might notice a distinct lack of content.</p>
-            <p>No worries. The site will be back up soon.</p>
-            <img src="images/me.jpg" alt="It is just me" width="300" height="374">
-            <footer>
-                <div class="quote-box">
-                    <blockquote>
-                        <p id="quoteDisplay"></p>
-                    </blockquote>
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul> <!-- end #nav -->
+
+        </nav> <!-- end #nav-wrap -->
+
+        <div class="row banner">
+            <div class="banner-text">
+                <h1 class="responsive-headline">Hello!</h1>
+                <h1 class="responsive-headline">I am James Richards.</h1>
+                <div class="myQuoteGen">
+                    <h3>I am a <span>Technical</span> and <span>Customer Support Agent</span> with 20 years of experience in various <span>techology</span> and <span>service</span> industries.</h3>
+                    <h3>I have supported companies like <span>Apple</span>, ACS/Xerox, <span>DirecTV</span>, Sony PlayStation, <span>Dell</span>, Logitech and <span>Earthlink/Prodigy/AOL</span> to name a few.</h3>
+                    <h3>Below is my resume, links to hobbies and other interests I hold.</h3>
                 </div>
-            </footer>
+                <hr>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/Knight.Beleriand"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jamesrichards1982/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jwrichards1982"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKZx53mJtTA99w3DaZSIakw"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <div class="myQuoteGen">
+                    <p id="myQuoteDisplay"></p>
+                </div>
+                <p>My neat quote generator toy</p>
+            </div>
         </div>
-    </section>
 
-    <!-- One -->
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p>
 
-    <!-- Two -->
+    </header> <!-- Header End -->
 
-    <!-- Work -->
 
-    <!-- Contact -->
+    <!-- About Section
+   ================================================== -->
+    <section id="about">
 
-    <!-- Footer -->
-    <footer id="footer">
+        <div class="row">
 
-        <!-- Icons -->
-        <ul class="actions">
-            <!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-            <li><a href="https://www.facebook.com/Knight.Beleriand" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://github.com/jwrichards1982" class="icon fa-brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://www.linkedin.com/in/jamesrichards1982/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a href="mailto:richardsjamesw@gmail.com?subject=aMail@20from%20the%20Github%20Portfolio" class="icon fa-solid fa-envelope"><span class="label">E-Mail</span></a></li>
-            <!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
-            <!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-            <!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
-            <!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
-        </ul>
+            <div class="three columns">
 
-        <!-- Menu -->
-        <ul class="menu">
-            <li>&copy; James Richards</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
+                <img class="profile-pic" src="images/profilepic.jpg" alt="">
 
-    </footer>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <h2>About Me</h2>
+
+                <p>
+                    As mentioned previouisly, I have been in the Customer and Technical Support industry for 20 years. My first job was <span>Dell</span> technical support under
+                    ClienteLogic (now Sitel) back in 1999. I was accepted into the position without an A+ certification from CompTIA due to me being able to display enough knowledge
+                    and experience with computers to be able to competently perform my duties. I was also the youngest at the time, 17 years old. I started playing with computer
+                    early on, my first computer with help from my father, I built in 1993. That same year, <span>Doom</span> was released and my father pruchased a copy for me.
+                    That was when I got into game modding, got a copy of The <span>Doom Construction Kit</span> for Chsitmas 1994, which was a book describing how to mod almost
+                    every aspect of the game; from graphcis to levels to game behaviors. That started my journey down software development and design.
+                </p>
+                <p>
+                    In 2001, I attended High-Tech Insititute in Phoenix, Arizona. After six months, however, I was forced to move back in with my parents as the economic downturn
+                    and scarcity of jobs kept me from continuing my education there. My professor did urge me at leats to get an A+ certification. I spent the last of my money and
+                    certified when it was a lifetime certification. Though the <span>dotCom Bubble</span> popped, I still displayed and used it in lieu of a College/University
+                    Degree. I am still planning on raising enough money to go back to school, now that my previous grants are finally paid off.
+                </p>
+
+                <div class="row">
+
+                    <div class="columns contact-details">
+                        <h2>Contact Details</h2>
+                        <p class="address">
+                            <span>Las Vegas, NV 89169 US
+                            </span><br>
+                            <span>(719) 888-9122</span><br>
+                            <span>richardsjamesw@gmail.com</span>
+                        </p>
+                        <h2>Computer Specs</h2>
+                        <p class="address">
+                            <span>
+                                CPU: i5-6600k
+                            </span><br>
+                            <span>
+                                GFX: GAMING X Radeon RX 580 8 GB
+                            </span><br>
+                            <span>
+                                RAM: 16GB DDR$-2400 CL14
+                            </span><br>
+                            <span>
+                                OS: Arch Linux (6.2.11-arch1-1)<br>
+                                KDE Plasma
+                            </span><br>
+                        </p>
+                    </div>
+
+                    <div class="columns download">
+                        <p>
+                            <a href="resume/James_Richards_Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume (PDF)</a>
+                            <a href="resume/James_Richards_Resume.odt" class="button"><i class="fa fa-download"></i>Download Resume (ODT)</a>
+                            <a href="resume/James_Richards_Resume.docx" class="button"><i class="fa fa-download"></i>Download Resume (DOCX)</a>
+                            <a href="resume/James_Richards_Resume.txt" class="button"><i class="fa fa-download"></i>Download Resume (TXT - UTF-8)</a>
+                        </p>
+                    </div>
+
+                </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+        </div>
+
+    </section> <!-- About Section End-->
+
+
+    <!-- Resume Section
+   ================================================== -->
+    <section id="resume">
+
+        <!-- Work
+      ----------------------------------------------- -->
+        <div class="row work">
+
+            <div class="three columns header-col">
+                <h1><span>Work</span></h1>
+                <h5><span>Select highlights</span></h5>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Robert Half International</h3>
+                        <p class="info">Help Desk <span>&bull;</span> <em class="date">November 2021 - October 2022</em></p>
+
+                        <ul>
+                            <li>Managed and maintained user accounts on Active Directory and Office 635 for a leading, Fortune 500 financial firm, LPL Financial.</li>
+                            <li>Instrumental in training and leading a new group of advisors handling a new support program for LPL.</li>
+                            <li>Consistently received positive reviews and praise from LPL Financial, there financial advisors and customers.</li>
+                        </ul>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Barclay's Bank - Yochana IT</h3>
+                        <p class="info">Technical Support <span>&bull;</span> <em class="date">October 2021 - November 2021</em></p>
+                        <h3>Venetian Hotel &amp; Casino - Link Technologies, LLC</h3>
+                        <p class="info">Migration Support <span>&bull;</span> <em class="date">July 2021 - September 2021</em></p>
+
+                        <ul>
+                            <li>Trained Barclay’s first, fully work from home group of new hires on equipment setup, usage and login.</li>
+                            <li>Completed inventory tracking of all equipment in the building ahead of schedule.</li>
+                            <li>Successfully completed a recycling vendor negotiation.</li>
+                            <li>Setup and configure new users on Active Directory, Microsoft Authenticator, Apple MDM and Office 365 on laptops and devices during sale of The Venetian.</li>
+                            <li>Successfully completed a recycling vendor negotiation.</li>
+                        </ul>
+                        <p>
+                            All contracts completed ahead of schedule with positive reviews of both Barclay's and Venetian management.
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>IPGARD / SmartAVI</h3>
+                        <p class="info">Technical Support Manager <span>&bull;</span> <em class="date">Februrary 2020 - April 2020</em></p>
+
+                        <ul>
+                            <li>Helped gain NIAP certification for all products and network security.</li>
+                            <li>Completed inventory of all equipment in the building and developed a complete SOP of IT operations.</li>
+                            <li>Made the IT Department useful and efficient in bolstering the companies objectives and prosperity.</li>
+                        </ul>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>IPGARD / SmartAVI</h3>
+                        <p class="info">Technical Support Manager <span>&bull;</span> <em class="date">Februrary 2020 - April 2020</em></p>
+
+                        <ul>
+                            <li>Provided technical and customer support for DTiQ clients and businesses with POS integrated video surveillance and recording equipment.</li>
+                            <li>Increased successful Loss Prevention for clients, handling sensitive documentation and video/audio evidence, processed delivered in a timely manner.</li>
+                            <li>Resolved remote connectivity and hardware problems with various third party switches, routers and devices.</li>
+                        </ul>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End Work -->
+
+        <!-- Education
+      ----------------------------------------------- -->
+        <div class="row education">
+
+            <div class="three columns header-col">
+                <h1><span>Education</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>High-Tech Intitute - Phoenix, AZ</h3>
+                        <p class="info">Information Technology <span>&bull;</span> <em class="date">January 2002 - June 2002</em></p>
+
+                        <p>
+                            A Vocational intitute, specializing in IT and medical professions. I decided to attend to take JUST the courses and classes
+                            I needed to obtaina degree. I already graduated High School with Advanced Placement and high level classes; I was already
+                            reading at a college level before I entered High School and quickly grasped mathematics into calculus levels by the time I
+                            graduated. My time with HTI was saddly cut short due to the 'dotCom Bubble' bust and resulting joblosses in many sectors. I
+                            couldn't even get a fast food job.
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Las Vegas High School - Eastern New Mexico University - Job Corps</h3>
+                        <p class="info">High School Diploma and Business Office Technology vocation <span>&bull;</span> <em class="date"> August 1996 - November 2001</em></p>
+
+                        <p>
+                            I began in Las Vegas High School (Nevada) where I was accepte dinto the National Honor Society, had an extremely short school schedule
+                            by my Senior year. I admit, I dropped out before graduating in 2000, but the principle got me in touch with ENMU to take the normal
+                            standardized tests to gain a dimploma. After recovering from a possible mistake in only getting a GED and not experiencing a gradutation
+                            like a student who stayed in school, I had no idea what I wanted to do with my life. I still think that I don't to this day at times. I entered
+                            Job Corps where I gained a couple certificates in Microsoft Office User Specialist and Department of Labor certification in Business Office
+                            Technology and Administration.
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End Education -->
+
+
+        <!-- Certifications
+      ----------------------------------------------- -->
+        <div class="row skill">
+
+            <div class="three columns header-col">
+                <h1><span>Certifications</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <h3>Comptia A+ </h3>
+                <p class="date">Lifetime (2002 - 2014), C.E. (2014 - 2017)</p>
+
+                <h3>Microsoft Office User Specialist (M.O.U.S) </h3>
+                <p class="date">November 2001</p>
+
+                <h3>Business Office Technology and Administration </h3>
+                <p class="info">Department of Labor and Education <span>&bull;</span> <em class="date"> November 2001</em></p>
+
+            </div> <!-- main-col end -->
+
+            <div class="three columns header-col">
+                <h1><span>Skills</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+                <section class="skills2">
+                    <h6>Soft Skills</h6>
+                    <p>If a grade is added, these are from the tests available on indeed.com<br>
+                        This is also not an exhaustive list, just the skills I have used in past jobs and projects.</p>
+                    <ul>
+                        <li><span>Problem Solving - Expert</span></li>
+                        <li><span>Critical thinking - Expert</span></li>
+                        <li><span>Technical support - Proficient</span></li>
+                        <li><span>Technical support: Customer situations - Proficient</span></li>
+                        <li><span>Office manager - Proficient</span></li>
+                        <li><span>Decision-making - Proficient</span></li>
+                        <li><span>Conflict management - Proficient</span></li>
+                        <li><span>Openness to criticism</span></li>
+                        <li><span>Adaptability</span></li>
+                        <li><span>Time management</span></li>
+                        <li><span>Teamwork</span></li>
+                    </ul>
+                </section>
+                <section class="skills2">
+                    <h6>Technology Skills</h6>
+                    <ul>
+                        <li><span>Basic Computer Skills: PC - Expert</span></li>
+                        <li><span>Basic Computer Skills: Sofware - Proficient</span></li>
+                        <li><span>Basic Computer Skills: Hardware - Proficient</span></li>
+                        <li><span>Windows XP - 11</span></li>
+                        <li><span>Office 95 - 365</span></li>
+                        <li><span>HTML5</span></li>
+                        <li><span>CSS3</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>DNS / DHCP</span></li>
+                        <li><span>Active Directory</span></li>
+                        <li><span>Computer programming</span></li>
+                        <li><span>jQuery</span></li>
+                        <li><span>MacOS - iOS</span></li>
+                        <li><span>Project management</span></li>
+                        <li><span>Data analysis</span></li>
+                        <li><span>Linux</span></li>
+                        <li><span>Bootstrap</span></li>
+                        <li><span>PHP</span></li>
+                        <li><span>React</span></li>
+                    </ul>
+                </section>
+            </div> <!-- main-col end -->
+
+        </div> <!-- End skills -->
+
+    </section> <!-- Resume Section End-->
+
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+
+        <div class="row">
+
+            <div class="twelve columns collapsed">
+
+                <h1>Nothing here yet!</h1>
+
+            </div> <!-- twelve columns end -->
+
+
+            <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+        </div> <!-- row End -->
+
+    </section> <!-- Portfolio Section End-->
+
+
+    <!-- Call-To-Action Section
+   ================================================== -->
+    <!-- <section id="call-to-action">
+
+        <div class="row">
+
+            <div class="two columns header-col">
+
+                <h1><span>Get Hosting.</span></h1>
+
+            </div>
+
+            <div class="seven columns">
+
+                <h2><span class="lead">Unde Omnis Iste</span></h2>
+                <p><span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae. </span></p>
+
+            </div>
+
+            <div class="three columns action">
+
+
+
+            </div>
+
+        </div>
+
+    </section> <!-- Call-To-Action Section End-->
+
+    <!-- Contact Section
+   ================================================== -->
+    <section id="contact">
+
+        <div class="row section-head">
+
+            <div class="two columns header-col">
+
+                <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="eight columns">
+
+                <!-- form -->
+
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqzyokg" method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <legend></legend> <!-- black to appease MDN validation, not used -->
+                        <label for="full-name">Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and/or Last" required>
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required>
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <label for="message">Click Submit</label>
+                    <input type="submit" value="Submit"> <!-- not replacing with <button> tag as MDN wants, this is to preserve current compatibility with formspree.io-->
+                    <p>messaging form supplied by formspree.io</p>
+                </form>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+                <div class="widget widget_contact">
+
+                    <h4>Address and Phone</h4>
+                    <p class="address">
+                        James Richards<br>
+                        Las Vegas, NV 89169 US<br>
+                        <span>(719) 888-9122</span>
+                    </p>
+
+                </div>
+
+                <div class="widget widget_tweets">
+
+                    <h4 class="widget-title">Latest Tweets</h4>
+
+                    <ul id="twitter">
+                        <!-- <li>
+                            <span>
+                                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                                <a href="#">http://t.co/CGIrdxIlI3</a>
+                            </span>
+                            <b><a href="#">2 Days Ago</a></b>
+                        </li> -->
+
+                        <li>
+                            <span>
+                                I don't use Twitter. ...yet.
+                                <!-- <a href=""></a> -->
+                            </span>
+                            <!-- <b><a href=""></a></b> -->
+                        </li>
+                    </ul>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </section> <!-- Contact Section End-->
+
+
+    <!-- footer
+   ================================================== -->
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/Knight.Beleriand"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jamesrichards1982/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jwrichards1982"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKZx53mJtTA99w3DaZSIakw"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2023 James Richards</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
+                </ul>
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+        </div>
+
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- Original line -->
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/quoteGet.js"></script>
+
+    <!-- formspree.io for emails
+   ================================================== -->
+
+    <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
 
 </body>
 
