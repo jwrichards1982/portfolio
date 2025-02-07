@@ -1006,7 +1006,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: #191919;
+    background: #191919 url(../images/contact-bg.jpg) no-repeat top center;
     padding-top: 96px;
     padding-bottom: 102px;
     color: #636363;
@@ -1050,13 +1050,14 @@ call-to-action .button {
 }
 
 #contact h4 {
-    font: 16px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px 'opensans-bold', sans-serif;
     color: #EBEEEE;
     margin-bottom: 6px;
 }
 
 #contact p.lead {
     font: 18px/36px 'opensans-light', sans-serif;
+    color: #EBEEEE;
     padding-right: 3%;
 }
 
@@ -1175,6 +1176,19 @@ call-to-action .button {
     border: none;
 }
 
+#contact h7 span {
+    display:block;
+    font: 16px/24px 'opensans-bold', sans-serif;
+    padding: 18px 20px;
+    color: #EBEEEE;
+    background-color: rgba(0, 0, 0, 0.50);
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height: 24px;
+}
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
