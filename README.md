@@ -15,3 +15,5 @@ NEW - 21-March-2023 - Working on a Minecraft mod : [HERE](https://github.com/jwr
 * Contributed and developed several game modifications for Minecraft
 
 I invite you to take a look at my web-page (check out the random quote printer!) and if you have any questions, looking for a developer or someone to complete your team, please [Contact me](mailto:richardsjamesw@gmail.com) and let me know what I can do for you!
+
+Just an update due to SSD and data loss
